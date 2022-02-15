@@ -1,0 +1,40 @@
+1.
+arr=np.array([])
+l=[]
+for i in range(-10,11,1):
+    l.append(i)
+an_array=np.append(arr,l)
+new_array = an_array.astype(np.int32)
+new_array
+
+
+
+2.a)
+x=D[1:10]
+x
+
+
+b)
+y=D[-9:-18:-1]
+y
+
+
+c)
+z=D[::-1]
+z
+
+
+3)
+Because it consume less memory and fast as compared to the python List.
+
+4)
+The date types are-
+i. Integer
+
+ii. Float
+
+iii. Strings
+
+iv. Boolean
+
+v.Complex
